@@ -7,37 +7,27 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.coetzeem.rps_ultimate.join_league">
+    tools:context="com.example.coetzeem.rps_ultimate.join_league"
+    android:id="@+id/joinleaguetxt">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Join A League!"
-        android:id="@+id/textView4"
+        android:id="@+id/joinleaguetxt"
+        android:layout_marginTop="60dp"
+        android:textSize="50sp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
-        android:textSize="50sp" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:ems="10"
-        android:id="@+id/editText"
-        android:layout_marginTop="73dp"
-        android:layout_below="@+id/textView4"
-        android:layout_alignRight="@+id/textView4"
-        android:layout_alignEnd="@+id/textView4" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="entercode:"
-        android:id="@+id/textView5"
+        android:id="@+id/entercode"
         android:textSize="24dp"
-        android:layout_alignBottom="@+id/editText"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -45,10 +35,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Join"
-        android:id="@+id/button3"
+        android:id="@+id/joinbutton"
         android:textSize="25sp"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="109dp" />
+        android:layout_marginBottom="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/joinleaguetxt"
+        android:layout_alignEnd="@+id/joinleaguetxt"
+        android:layout_alignLeft="@+id/joinbutton"
+        android:layout_alignStart="@+id/joinbutton" />
 
 </RelativeLayout>

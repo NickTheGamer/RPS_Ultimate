@@ -24,17 +24,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="&lt;SHARDITE>"
-        android:id="@+id/textView2"
-        android:textSize="60sp"
-        android:layout_marginBottom="40dp"
-        android:layout_above="@+id/textView3"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="League?"
         android:id="@+id/textView3"
         android:textSize="25sp"
@@ -45,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Yaassss!"
-        android:id="@+id/button"
+        android:id="@+id/acceptbutton"
         android:layout_marginTop="68dp"
         android:layout_below="@+id/textView3"
         android:layout_toLeftOf="@+id/textView3"
@@ -55,9 +44,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Never."
-        android:id="@+id/button2"
-        android:layout_alignTop="@+id/button"
+        android:id="@+id/declinebutton"
+        android:layout_alignTop="@+id/acceptbutton"
         android:layout_toRightOf="@+id/textView3"
         android:layout_toEndOf="@+id/textView3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="&lt;SHARDITE>"
+        android:editable="false"
+        android:textSize="60dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
 
 </RelativeLayout>
