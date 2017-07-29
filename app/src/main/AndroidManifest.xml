@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".join_league" />
-        <activity android:name=".challenge_send"></activity>
+        <activity android:name=".challenge_send" />
+        <activity android:name=".First_screen"></activity>
     </application>
 
 </manifest>
