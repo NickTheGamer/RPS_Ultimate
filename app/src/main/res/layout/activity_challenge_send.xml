@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="&lt;SHARDITE>"
+        android:text="&lt;AWESOME>"
         android:id="@+id/textView6"
         android:textSize="60sp"
         android:layout_alignParentTop="true"
