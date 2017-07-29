@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Join A League!"
+        android:text="@string/join_a_league"
         android:id="@+id/joinleaguetxt"
         android:layout_marginTop="60dp"
         android:textSize="50sp"
@@ -24,17 +24,18 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="entercode:"
+        android:text="@string/entercode"
         android:id="@+id/entercode"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Join"
+        android:text="@string/join"
         android:id="@+id/joinbutton"
         android:textSize="25sp"
         android:layout_marginBottom="66dp"

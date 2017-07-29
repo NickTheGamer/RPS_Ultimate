@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">RPS_Ultimate</string>
+    <string name="join_a_league">Join A League!</string>
+    <string name="entercode">entercode:</string>
+    <string name="join">Join</string>
+    <string name="are_you_trying_to_join_the">Are You Trying To Join The</string>
+    <string name="edittxt_shardite"><![CDATA[<SHARDITE>]]></string>
+    <string name="league">League?</string>
+    <string name="yaassssbutton">Yaassss!</string>
+    <string name="neverbutton">Never.</string>
+    <string name="make_your_pick">Make Your Pick!</string>
+    <string name="rockbutton">Rock</string>
+    <string name="paperbutton">Paper</string>
+    <string name="scissorsbutton">Scissors</string>
+    <string name="send_that_challengebutton">SEND THAT CHALLENGE!</string>
 </resources>

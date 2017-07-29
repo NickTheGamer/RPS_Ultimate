@@ -12,7 +12,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rock"
+        android:text="@string/rockbutton"
         android:id="@+id/rockbutton"
         android:layout_alignTop="@+id/paperbutton"
         android:layout_alignParentLeft="true"
@@ -21,7 +21,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Paper"
+        android:text="@string/paperbutton"
         android:id="@+id/paperbutton"
         android:layout_alignTop="@+id/scissorsbutton"
         android:layout_centerHorizontal="true" />
@@ -29,7 +29,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Scissors"
+        android:text="@string/scissorsbutton"
         android:id="@+id/scissorsbutton"
         android:layout_marginBottom="56dp"
         android:layout_above="@+id/sendchallengebutton"
@@ -39,21 +39,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Make Your Pick!"
+        android:text="@string/make_your_pick"
         android:id="@+id/makepicktxt"
         android:textSize="20sp"
         android:textColor="#000000"
-        android:layout_above="@+id/rockbutton"
+        android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="61dp" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SEND THAT CHALLENGE!"
+        android:text="@string/send_that_challengebutton"
         android:id="@+id/sendchallengebutton"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="53dp" />
@@ -62,19 +61,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText2"
-        android:layout_above="@+id/makepicktxt"
+        android:text="&lt;NickTheGamerVSMaxL123>"
+        android:textSize="20sp"
+        android:layout_below="@+id/editText3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="38dp"
-        android:text="&lt;NickTheGamerVSMaxL123>"
-        android:textSize="20sp" />
+        android:layout_marginTop="39dp"
+        android:textColor="#000000" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText3"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/rockbutton"
-        android:layout_toEndOf="@+id/rockbutton" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/scissorsbutton"
+        android:layout_alignEnd="@+id/scissorsbutton"
+        android:text="&lt;SHARDITE>"
+        android:textSize="60dp" />
 
 </RelativeLayout>
