@@ -6,4 +6,54 @@
     android:layout_height="match_parent"
     tools:context="com.example.coetzeem.rps_ultimate.Lague_list">
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="346dp"
+        android:layout_height="71dp"
+        android:text="League list"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
+        android:text="Nic Pro"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
+        android:text="Max Pro"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
+        android:text="egg heads"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="346dp"
+        android:layout_height="58dp"
+        android:text="Shardite "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="197dp" />
+
 </android.support.constraint.ConstraintLayout>
