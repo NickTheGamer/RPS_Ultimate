@@ -9,4 +9,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.coetzeem.rps_ultimate.recieve_challenge">
 
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:contextClickable="true"
+        android:clickable="false"
+        android:baselineAligned="true"
+        android:background="#ffffff"></TableLayout>
 </RelativeLayout>
+
+

@@ -8,6 +8,6 @@ public class recieve_challenge extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recieve_challenge);
+        setContentView(R.layout.challenge_screen);
     }
 }
