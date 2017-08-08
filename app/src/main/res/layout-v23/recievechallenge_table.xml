@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.coetzeem.rps_ultimate.recieve_challenge">
+    tools:context=".recievechallenge_table">
 
 
     <TableLayout
@@ -74,7 +74,7 @@
 
             <EditText
                 android:id="@+id/editText9"
-                android:text="Rock"
+                android:text="         ?"
                 android:layout_column="10"
                 android:inputType="text" />
 
@@ -105,7 +105,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/editText12"
                 android:layout_column="10"
-                android:text="Scissors"
+                android:text="         ?"
                 android:inputType="text" />
         </TableRow>
 
@@ -134,7 +134,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/editText15"
                 android:layout_column="10"
-                android:text="Rock"
+                android:text="         ?"
                 android:inputType="text" />
         </TableRow>
 
@@ -160,7 +160,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/editText18"
                 android:layout_column="10"
-                android:text="Paper"
+                android:text="         ?"
                 android:inputType="text" />
         </TableRow>
 

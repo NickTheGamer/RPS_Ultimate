@@ -19,7 +19,7 @@
         <activity android:name=".challenge_send" />
         <activity android:name=".First_screen" />
         <activity android:name=".Lague_list" />
-        <activity android:name=".recieve_challenge" />
+        <activity android:name=".recievechallenge_table" />
         <activity android:name=".sentchallengetable"></activity>
     </application>
 

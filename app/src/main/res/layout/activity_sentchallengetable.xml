@@ -53,19 +53,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText19"
-                android:inputType="text" />
+                android:inputType="text"
+                android:text="SHARDITE" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText20"
-                android:inputType="text" />
+                android:inputType="text"
+                android:text="NickTheGamer" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText21"
-                android:inputType="text" />
+                android:inputType="text"
+                android:text="Rock" />
         </TableRow>
 
         <TableRow
@@ -76,19 +79,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText22"
-                android:inputType="text" />
+                android:inputType="text"
+                android:text="Justis" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText23"
-                android:inputType="text" />
+                android:inputType="text"
+                android:text="MaxL123" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText24"
-                android:inputType="text" />
+                android:inputType="text"
+                android:text="Scissors" />
         </TableRow>
 
         <TableRow
@@ -99,19 +105,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText25"
-                android:inputType="text" />
+                android:inputType="text"
+                android:text="SHARDITE" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText26"
-                android:inputType="text" />
+                android:inputType="text"
+                android:text="Martin" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText27"
-                android:inputType="text" />
+                android:inputType="text"
+                android:text="Rock" />
         </TableRow>
 
         <TableRow
@@ -122,19 +131,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText28"
-                android:inputType="text" />
+                android:inputType="text"
+                android:text="Munkey" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText29"
-                android:inputType="text" />
+                android:inputType="text"
+                android:text="Vince" />
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/editText30"
-                android:inputType="text" />
+                android:inputType="text"
+                android:text="Paper" />
         </TableRow>
     </TableLayout>
 </RelativeLayout>
