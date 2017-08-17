@@ -21,15 +21,15 @@
         android:id="@+id/textView" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
         android:text="&lt;SHARDITE>"
-        android:id="@+id/textView2"
-        android:textSize="60sp"
-        android:layout_marginBottom="40dp"
-        android:layout_above="@+id/textView3"
-        android:layout_centerHorizontal="true" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="36sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -59,5 +59,15 @@
         android:layout_alignTop="@+id/button"
         android:layout_toRightOf="@+id/textView3"
         android:layout_toEndOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/BD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onButtonClick"
+        android:text="Menu" />
 
 </RelativeLayout>
