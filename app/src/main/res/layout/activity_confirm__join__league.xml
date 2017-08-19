@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Are You Trying To Join The "
+        android:text="@string/are_you_trying_to_join_the"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
@@ -32,11 +32,11 @@
         android:textSize="36sp" />
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="League?"
-        android:id="@+id/textView3"
         android:textSize="25sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
@@ -44,8 +44,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Yaassss!"
-        android:id="@+id/button"
+        android:text="@string/yaassssbutton"
+        android:id="@+id/acceptbutton"
         android:layout_marginTop="68dp"
         android:layout_below="@+id/textView3"
         android:layout_toLeftOf="@+id/textView3"
@@ -54,9 +54,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Never."
-        android:id="@+id/button2"
-        android:layout_alignTop="@+id/button"
+        android:text="@string/neverbutton"
+        android:id="@+id/declinebutton"
+        android:layout_alignTop="@+id/acceptbutton"
         android:layout_toRightOf="@+id/textView3"
         android:layout_toEndOf="@+id/textView3" />
 

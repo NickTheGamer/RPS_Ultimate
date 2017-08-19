@@ -21,6 +21,8 @@
         <activity android:name=".Lague_list" />
         <activity android:name=".Create_league" />
         <activity android:name=".Every_other_time"></activity>
+        <activity android:name=".recievechallenge_table" />
+        <activity android:name=".sentchallengetable"></activity>
     </application>
 
 </manifest>
