@@ -21,11 +21,22 @@
         android:id="@+id/textView" />
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="&lt;SHARDITE>"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/league"
-        android:id="@+id/textView3"
+        android:text="League?"
         android:textSize="25sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
@@ -49,16 +60,14 @@
         android:layout_toRightOf="@+id/textView3"
         android:layout_toEndOf="@+id/textView3" />
 
-    <EditText
+    <Button
+        android:id="@+id/BD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:text="@string/edittxt_shardite"
-        android:editable="false"
-        android:textSize="60sp"
-        android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="32dp" />
+        android:layout_alignParentTop="true"
+        android:onClick="onButtonClick"
+        android:text="Menu" />
 
 </RelativeLayout>
