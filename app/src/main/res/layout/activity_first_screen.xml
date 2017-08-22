@@ -92,8 +92,9 @@
         app:layout_constraintBottom_toTopOf="@+id/BD2"
         app:layout_constraintRight_toRightOf="@+id/editText3"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="26dp"
-        app:layout_constraintLeft_toLeftOf="@+id/editText3" />
+        android:layout_marginBottom="28dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editText3"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <EditText
         android:id="@+id/editText5"

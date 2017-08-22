@@ -7,19 +7,22 @@
     tools:context="com.example.coetzeem.rps_ultimate.join_league">
 
     <TextView
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Join A League!"
-        android:id="@+id/textView4"
-        android:textSize="50sp"
-        tools:layout_constraintTop_creator="1"
+        android:layout_marginLeft="27dp"
         android:layout_marginStart="27dp"
-        tools:layout_constraintLeft_creator="1"
+        android:layout_marginTop="64dp"
+        android:text="@string/join_a_league"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="27dp"
-        android:layout_marginTop="64dp" />
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.365" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -36,49 +39,50 @@
         android:layout_marginLeft="14dp" />
 
     <TextView
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="entercode:"
-        android:id="@+id/textView5"
-        android:textSize="24dp"
-        tools:layout_constraintBottom_creator="1"
+        android:layout_marginLeft="8dp"
         android:layout_marginStart="16dp"
+        android:text="@string/entercode"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/editText"
-        tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="16dp" />
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="0dp" />
 
     <Button
+        android:id="@+id/Join"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Join"
-        android:id="@+id/button3"
-        android:textSize="25sp"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        android:layout_marginStart="121dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginEnd="121dp"
-        app:layout_constraintRight_toRightOf="@+id/editText"
-        tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="95dp"
-        app:layout_constraintLeft_toLeftOf="@+id/textView4"
+        android:layout_marginEnd="121dp"
         android:layout_marginLeft="121dp"
-        android:layout_marginRight="121dp" />
+        android:layout_marginRight="121dp"
+        android:layout_marginStart="121dp"
+        android:text="@string/join"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/textView4"
+        app:layout_constraintRight_toRightOf="@+id/editText"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
 
     <Button
         android:id="@+id/BC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick=" "
-        android:text="menu"
-        tools:layout_constraintTop_creator="1"
+        android:layout_marginLeft="27dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        tools:layout_constraintLeft_creator="1"
+        android:onClick=" "
+        android:text="@string/menu"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="27dp" />
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
 </android.support.constraint.ConstraintLayout>
 

@@ -13,8 +13,14 @@
         android:text="League list"
         android:textAlignment="center"
         android:textSize="50sp"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/button11"
@@ -23,8 +29,12 @@
         android:text="Nic Pro"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="437dp" />
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/button15"
@@ -33,8 +43,12 @@
         android:text="Max Pro"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="351dp" />
+        android:layout_marginBottom="33dp"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/button14"
@@ -43,8 +57,12 @@
         android:text="egg heads"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="279dp" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintBottom_toTopOf="@+id/button15" />
 
     <Button
         android:id="@+id/button13"
@@ -53,7 +71,14 @@
         android:text="Shardite "
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="197dp" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="3dp"
+        app:layout_constraintVertical_bias="0.787" />
 
 </android.support.constraint.ConstraintLayout>

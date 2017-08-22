@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/confirm_join_league"
     tools:context="com.example.coetzeem.rps_ultimate.Confirm_Join_League">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="13dp"
         android:text="@string/are_you_trying_to_join_the"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="25sp"
-        android:id="@+id/textView" />
+        android:layout_below="@+id/BD"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
+        android:layout_above="@+id/textView3"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:text="&lt;SHARDITE>"
+        android:layout_marginBottom="40dp"
+        android:text="@string/edittxt_shardite"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="36sp" />
 
@@ -35,30 +33,30 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="League?"
-        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:text="@string/league"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/yaassssbutton"
         android:id="@+id/acceptbutton"
-        android:layout_marginTop="68dp"
-        android:layout_below="@+id/textView3"
-        android:layout_toLeftOf="@+id/textView3"
-        android:layout_toStartOf="@+id/textView3" />
-
-    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/neverbutton"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="68dp"
+        android:layout_toLeftOf="@+id/textView3"
+        android:layout_toStartOf="@+id/textView3"
+        android:text="@string/acceptbutton" />
+
+    <Button
         android:id="@+id/declinebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignTop="@+id/acceptbutton"
+        android:layout_toEndOf="@+id/textView3"
         android:layout_toRightOf="@+id/textView3"
-        android:layout_toEndOf="@+id/textView3" />
+        android:text="@string/neverbutton" />
 
     <Button
         android:id="@+id/BD"
@@ -68,6 +66,6 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:onClick="onButtonClick"
-        android:text="Menu" />
+        android:text="@string/menu" />
 
 </RelativeLayout>
